@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15125647100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login to see the Desktop page",
+        "description": "",
+        "id": "retail-product-feature;login-to-see-the-desktop-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1010299300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4601292400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "LoginTestStepDefinition.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User click on Desktops tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User click on Show all desktops",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "User should see all items are present in Desktop page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@DeskTopLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Retail Product Feature",
+    "description": "",
+    "id": "retail-product-feature",
+    "keyword": "Feature",
+    "uri": "Features/Login.feature"
+  }
+]
